@@ -216,8 +216,8 @@
             const internet = parseFloat(document.getElementById('internet').value) || 0;
             const supplies = parseFloat(document.getElementById('supplies').value) || 0;
             const rent = parseFloat(document.getElementById('rent').value) || 0;
-            const pTotal = parseInt(document.getElementById('peopleTotal').value) || 1;
-            const pAir = parseInt(document.getElementById('peopleAir').value) || 1;
+            const pTotal = parseInt(document.getElementById('peopleTotal').value) || 0;
+            const pAir = parseInt(document.getElementById('peopleAir').value) || 0;
 
             const grandTotalHouse = water + elecTotal + internet + supplies + rent;
 
@@ -261,7 +261,7 @@
                          `📊 ยอดรวมทั้งบ้าน: ${houseTotal} บาท\n` +
                          `--------------------------\n` +
                          `✅ ยอดคนหารปกติ: ${normal}\n` +
-                         `❄️ ยอดคนใช้แอร์ (ห้องแอร์): ${air}\n` +
+                         `❄️ ยอดคนใช้แอร์ : ${air}\n` +
                          `--------------------------\n` +
                          `📌 พร้อมเพย์: 0626458199\n` +
                          `ซาลาฮูดิน มูมิง\n` +
